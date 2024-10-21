@@ -73,12 +73,12 @@ This project is developed as part of my journey to explore data science, machine
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/sarthakkalia/Machine-Learning-Pipeline.git
+git clone https://github.com/sarthakkalia/Diamond-price-prediction.git
 ```
 
 ### 2. Navigate to the project directory
 ```bash
-cd Machine-Learning-Pipeline
+cd Diamond-price-prediction
 ```
 
 ### 3. Install dependencies
@@ -119,4 +119,4 @@ For more details on the pipeline and model selection, check out the repository [
 - [Machine Learning Pipeline](https://github.com/sarthakkalia/Machine-Learning-Pipeline)
 
 ## Contributors
-- **Sarthak Kumar Kalia** - [LinkedIn](https://www.linkedin.com/in/sarthakkalia/)
+- **Sarthak Kumar Kalia** - [LinkedIn](https://www.linkedin.com/in/sarthak-kalia/)
