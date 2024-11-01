@@ -1,6 +1,8 @@
-pandas
-numpy
-seaborn
-flask
-scikit-learn
+pandas==2.2.3
+numpy==2.1.2
+seaborn==0.13.2
+flask==3.0.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
+decorator==5.1.1
 # -e .

@@ -35,7 +35,10 @@ def predict_datapoint():
         results=round(pred[0],2)
 
         return render_template('form.html',final_result=results)
-    
+def print_server_info():
+    print("Starting the Flask application...")
+    print("Running on http://127.0.0.1:5000")   
 
-if __name__=="__main__":
+if __name__ == '__main__':
+    print_server_info()
     app.run(host='0.0.0.0',debug=True)
