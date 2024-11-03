@@ -1,1 +1,42 @@
-<h1> this is the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Price Predictor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Diamond Price Predictor</h1>
+            <p>Discover the value of your diamond with our advanced prediction model</p>
+        </header>
+        <main>
+            <section class="hero">
+                <h2>Welcome to our Diamond Price Prediction Service</h2>
+                <p>Our state-of-the-art machine learning model analyzes various characteristics of diamonds to provide accurate price estimates.</p>
+                <a href="{{ url_for('predict_datapoint') }}" class="cta-button">Start Prediction</a>
+            </section>
+            <section class="features">
+                <div class="feature">
+                    <h3>Accurate</h3>
+                    <p>Our model is trained on extensive diamond data to ensure high accuracy.</p>
+                </div>
+                <div class="feature">
+                    <h3>Fast</h3>
+                    <p>Get instant predictions with our efficient processing system.</p>
+                </div>
+                <div class="feature">
+                    <h3>User-Friendly</h3>
+                    <p>Easy-to-use interface for seamless prediction experience.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 Diamond Price Predictor. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
